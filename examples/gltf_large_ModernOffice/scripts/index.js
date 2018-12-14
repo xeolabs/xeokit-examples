@@ -15,7 +15,7 @@ const axisGizmo = new AxisGizmoPlugin(viewer, {size: [250, 250]});
 
 const model = glTFBigModels.load({
     id: "myModel",
-    src: "./../../models/gltf/modern_office/scene.gltf"
+    src: "./../../models/gltf/modern_office/scene.gltf",
     edges: true
 });
 
