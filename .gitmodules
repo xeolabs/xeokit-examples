@@ -1,0 +1,4 @@
+[submodule "xeokit-sdk"]
+	path = xeokit-sdk
+	url = https://github.com/xeolabs/xeokit-sdk
+	branch = master
