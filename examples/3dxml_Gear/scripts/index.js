@@ -23,7 +23,7 @@ new ReflectionMap(viewer.scene, {
 });
 
 const xml3dModels = new XML3DModelsPlugin(viewer, {
-    workerScriptsPath: "./../../../src/viewer/plugins/XML3DModelsPlugin/zipjs/"
+    workerScriptsPath: "./../../../xeokit-sdk/src/viewer/plugins/XML3DModelsPlugin/zipjs/"
 });
 
 const axisGizmo = new AxisGizmoPlugin(viewer, {size: [250, 250]});
